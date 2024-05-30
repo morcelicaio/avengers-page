@@ -1,0 +1,49 @@
+/* O * serve para o css pegar em todas as tags da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #111111;
+    /* display flex faz com que os elementos filhos (dentro) de header flutuem (ou sea, fiquem lado a lado) */
+    display: flex;
+    align-items: center; /* alinha os itens centralizando na vertical */
+
+    justify-content: space-around; /* separa os itens um para cada lado dando margens dos cantos da tela */
+}
+
+header img {
+    width: 180px;    
+}
+
+header ul {
+    /*list-style retira as bolinhas que marcam cada item da lista*/
+    list-style: none;    
+
+    /* display flex faz com que os elementos filhos (dentro) da <ul> flutuem (ou sea, fiquem lado a lado) */
+    display: flex;
+}
+
+/* só ativa o css no item li que possui outro item li do seu lado esquerdo*/
+header ul li + li {
+    margin-left: 24px
+}
+
+header a {
+    color: #ebebeb;
+
+    /*Remove o sublinhado do link*/
+    text-decoration: none;
+
+    transition: color 0.2s; /* transicao de 0.2 segundos para trocar a cor do item */
+}
+
+header a:hover {
+    color: #f13239;
+}
