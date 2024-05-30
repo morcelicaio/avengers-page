@@ -47,3 +47,46 @@ header a {
 header a:hover {
     color: #f13239;
 }
+
+.hero {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center 15%;
+
+    height: 320px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column; /* Faz com que os elementos filhos fiquem um cima do outro. Empilhados */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero h1{
+    color: #ebebeb;
+    font-size: 28px;
+}
+
+.dots{
+    margin-top: 12px;
+    display: flex;
+}
+
+.dots span{
+    display: block;
+    background-color: #ebebeb;
+
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    cursor: pointer; /* Faz aparecer o cursor de mãozinha ao passar o mouse em cima */
+}
+
+.dots span + span{
+    margin-left: 8px;
+}
+
+.dots .active{
+    background-color: red;
+}
