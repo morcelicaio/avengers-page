@@ -92,16 +92,16 @@ header a:hover {
 }
 
 .gallery {
-    width: 1200px;
+    max-width: 1200px;
 
     /* 64 p/ top e 0 p/ bottom e auto empurra o elemento p/
        o centro dando margem automática para left e right */
     margin: 64px auto 0; 
-    background-color: red;
+    padding: 0 24px;     
 }
 
 .gallery h2 {
-    margin-bottom: 32px;
+    margin-bottom: 32px;    
 }
 
 .gallery-row {
@@ -117,7 +117,9 @@ header a:hover {
 }
 
 .gallery-row div{
-    width: 350px;    
+    /* Flex 1 diz que todas as divs vão ter o msm tamanho*/
+    /* flex-grow 0 flex-shrin 1 flex-basis 250px*/
+    flex: 1 0 250px;
 }
 
 .gallery-row img{
@@ -128,4 +130,8 @@ header a:hover {
     border-radius: 8px;
 
     margin-bottom: 12px;
+}
+
+.gallery p {
+    font-weight: bold;
 }
