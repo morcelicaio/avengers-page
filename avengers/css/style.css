@@ -90,3 +90,42 @@ header a:hover {
 .dots .active{
     background-color: red;
 }
+
+.gallery {
+    width: 1200px;
+
+    /* 64 p/ top e 0 p/ bottom e auto empurra o elemento p/
+       o centro dando margem automática para left e right */
+    margin: 64px auto 0; 
+    background-color: red;
+}
+
+.gallery h2 {
+    margin-bottom: 32px;
+}
+
+.gallery-row {
+    display: flex;
+
+    /* Não permite que a tela fique com scroll horizontal 
+       caso as figuras ultrapassem a largura da tela. Irá
+       quebrar para a linha de baixo */
+    flex-wrap: wrap;
+
+    /* Define os espaços entre as linhas e colunas*/
+    gap: 24px;
+}
+
+.gallery-row div{
+    width: 350px;    
+}
+
+.gallery-row img{
+    /* Diz para a img dentro da div ocupar 100 % do elemento
+       pai (div) sem cortar a imagem */
+    width: 100%;
+
+    border-radius: 8px;
+
+    margin-bottom: 12px;
+}
