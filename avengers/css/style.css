@@ -101,7 +101,11 @@ header a:hover {
 }
 
 .gallery h2 {
-    margin-bottom: 32px;    
+    margin-bottom: 32px;
+
+    border-left: 4px solid red;
+
+    padding-left: 8px;
 }
 
 .gallery-row {
