@@ -148,17 +148,23 @@ header a:hover {
 .history .container-history {
     max-width: 1200px;
 
-    margin: 64px auto;    
+    margin: 64px auto;   
+    padding: 0 24px;
 
     display: flex;
+    flex-wrap: wrap;
     
     align-items: center;
 }
 
-.history .container-histor-col {
+.history .container-history-col {
     /* Flex 1 diz que todas as divs vão ter o msm tamanho*/
     /* flex-grow 1 flex-shrin 1 flex-basis 250px*/
     flex: 1 1 350px;
+}
+
+.history .container-history-col img {
+    width: 100%;
 }
 
 .history a {    
