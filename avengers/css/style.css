@@ -146,8 +146,8 @@ header a:hover {
     color: #ebebeb;
     border-top: 4px solid #f13239;
 
-    margin: 64px 0;
-    padding: 92px 24px;
+    margin: 64px 0 0;
+    padding: 92px 24px 0;
 }
 
 .history p {
@@ -192,10 +192,27 @@ header a:hover {
 
 .history a {    
     color: #f13239; 
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .history a:hover {   
     color: #ebebeb;
     cursor: pointer;
+}
+
+footer {
+    background-color: #111111;
+    color: #ebebeb;
+
+    padding: 64px 24px;
+    text-align: center;
+}
+
+footer a {
+    color: #f13239;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #ebeebe;
 }
