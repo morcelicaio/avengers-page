@@ -143,13 +143,15 @@ header a:hover {
 .history {
     background-color: #111111;
     color: #ebebeb;
+
+    margin: 64px 0;
 }
 
 .history .container-history {
     max-width: 1200px;
 
-    margin: 64px auto;   
-    padding: 0 24px;
+    margin: 0 auto;   
+    padding: 92px 24px 0;
 
     display: flex;
     flex-wrap: wrap;
@@ -165,6 +167,7 @@ header a:hover {
 
 .history .container-history-col img {
     width: 100%;
+    display: block;
 }
 
 .history a {    
