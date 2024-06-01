@@ -101,6 +101,7 @@ header a:hover {
 }
 
 .gallery h2 {
+    color: #111111;
     margin-bottom: 32px;
 
     border-left: 4px solid red;
@@ -147,6 +148,14 @@ header a:hover {
     margin: 64px 0;
 }
 
+.history p {
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas*/
+}
+
+.history p + p {
+    margin-top: 24px;
+}
+
 .history .container-history {
     max-width: 1200px;
 
@@ -170,6 +179,20 @@ header a:hover {
     display: block;
 }
 
+.history .container-history .container-history-col h2 {
+    margin-bottom: 32px;
+
+    border-left: 4px solid red;
+
+    padding-left: 8px;
+}
+
 .history a {    
     color: #f13239; 
+    transition: color 0.3s;
+}
+
+.history a:hover {   
+    color: #ebebeb;
+    cursor: pointer;
 }
