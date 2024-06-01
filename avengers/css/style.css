@@ -139,3 +139,28 @@ header a:hover {
 .gallery p {
     font-weight: bold;
 }
+
+.history {
+    background-color: #111111;
+    color: #ebebeb;
+}
+
+.history .container-history {
+    max-width: 1200px;
+
+    margin: 64px auto;    
+
+    display: flex;
+    
+    align-items: center;
+}
+
+.history .container-histor-col {
+    /* Flex 1 diz que todas as divs vão ter o msm tamanho*/
+    /* flex-grow 1 flex-shrin 1 flex-basis 250px*/
+    flex: 1 1 350px;
+}
+
+.history a {    
+    color: #f13239; 
+}
