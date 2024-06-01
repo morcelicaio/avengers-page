@@ -166,6 +166,7 @@ header a:hover {
     border-bottom: 2px solid #f13239;
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
     
     align-items: center;
 }
