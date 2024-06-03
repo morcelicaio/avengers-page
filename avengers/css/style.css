@@ -11,8 +11,8 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    background-color: pink;
+    margin: 0 auto;               
+    padding: 0 24px;     
 }
 
 header {
@@ -104,7 +104,7 @@ header a:hover {
 }
 
 .gallery {
-    padding: 0 24px;     
+    padding: 64px 0 96px;
 }
 
 .gallery h2 {
@@ -153,7 +153,7 @@ header a:hover {
     color: #ebebeb;
     border-top: 4px solid #f13239;
     
-    padding: 92px 24px 0;
+    padding: 92px 0 0;
 }
 
 .history p {
@@ -206,7 +206,7 @@ footer {
     background-color: #111111;
     color: #ebebeb;
 
-    padding: 64px 24px;
+    padding: 64px 0;
     text-align: center;
 }
 
