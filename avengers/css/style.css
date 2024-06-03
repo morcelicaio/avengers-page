@@ -24,6 +24,11 @@ h2 {
     margin: 0 auto;                      
 }
 
+.dark {
+    background-color: #111111;
+    color: #ebebeb;
+}
+
 .dark-link {
     color: #f13239;     
 }
@@ -159,9 +164,7 @@ header a:hover {
     font-weight: bold;
 }
 
-.history {
-    background-color: #111111;
-    color: #ebebeb;
+.history {        
     border-top: 4px solid #f13239;
     
     padding: 92px 24px 0;
@@ -196,9 +199,6 @@ header a:hover {
 }
 
 footer {
-    background-color: #111111;
-    color: #ebebeb;
-
     padding: 64px 24px;
     text-align: center;
 }
