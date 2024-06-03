@@ -9,14 +9,17 @@ body {
     font-family: sans-serif;
 }
 
+a {
+    transition: color 0.2s; /* transicao de 0.2 segundos para trocar a cor do item */
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;                      
 }
 
 .dark-link {
-    color: #f13239; 
-    transition: color 0.2s;
+    color: #f13239;     
 }
 
 .dark-link:hover {
@@ -60,9 +63,7 @@ header a {
     color: #ebebeb;
 
     /*Remove o sublinhado do link*/
-    text-decoration: none;
-
-    transition: color 0.2s; /* transicao de 0.2 segundos para trocar a cor do item */
+    text-decoration: none;    
 }
 
 header a:hover {
