@@ -13,6 +13,12 @@ a {
     transition: color 0.2s; /* transicao de 0.2 segundos para trocar a cor do item */
 }
 
+h2 {
+    margin-bottom: 32px;
+    border-left: 4px solid red;
+    padding-left: 8px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;                      
@@ -119,11 +125,6 @@ header a:hover {
 
 .gallery h2 {
     color: #111111;
-    margin-bottom: 32px;
-
-    border-left: 4px solid red;
-
-    padding-left: 8px;
 }
 
 .gallery-row {
@@ -192,14 +193,6 @@ header a:hover {
 .history .container-col img {
     width: 100%;
     display: block;
-}
-
-.history .container .container-col h2 {
-    margin-bottom: 32px;
-
-    border-left: 4px solid red;
-
-    padding-left: 8px;
 }
 
 footer {
