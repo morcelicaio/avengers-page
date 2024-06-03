@@ -104,11 +104,6 @@ header a:hover {
 }
 
 .gallery {
-    max-width: 1200px;
-
-    /* 64 p/ top e 0 p/ bottom e auto empurra o elemento p/
-       o centro dando margem automática para left e right */
-    margin: 64px auto 0; 
     padding: 0 24px;     
 }
 
@@ -157,8 +152,7 @@ header a:hover {
     background-color: #111111;
     color: #ebebeb;
     border-top: 4px solid #f13239;
-
-    margin: 64px 0 0;
+    
     padding: 92px 24px 0;
 }
 
