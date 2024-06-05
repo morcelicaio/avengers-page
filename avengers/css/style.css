@@ -116,18 +116,19 @@ header a:hover, header a:focus {
     display: flex;
 }
 
-.dots span{
-    display: block;
+.dots button{    
     background-color: #ebebeb;
 
     width: 12px;
     height: 12px;
+
+    border: none;
     border-radius: 50%;
 
     cursor: pointer; /* Faz aparecer o cursor de mãozinha ao passar o mouse em cima */
 }
 
-.dots span + span{
+.dots button + button{
     margin-left: 8px;
 }
 
