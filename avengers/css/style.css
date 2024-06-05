@@ -51,13 +51,12 @@ h2 {
 }
 
 header {    
-    padding: 8px 24px;
+    padding: 8px 16px;
 }
 
 header .container {
     /* display flex faz com que os elementos filhos (dentro) da div container flutuem (ou seja, fiquem lado a lado) */
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;    
     row-gap: 8px;
     column-gap: 24px;
 
@@ -67,7 +66,7 @@ header .container {
 }
 
 header img {
-    width: 180px;    
+    width: 120px;    
 }
 
 header ul {
