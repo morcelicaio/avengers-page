@@ -42,11 +42,12 @@ h2 {
     text-align: center;
 }
 
-header {
-    background-color: #111111;
+header {    
     padding: 8px 24px;
+}
 
-    /* display flex faz com que os elementos filhos (dentro) de header flutuem (ou sea, fiquem lado a lado) */
+header .container {
+    /* display flex faz com que os elementos filhos (dentro) da div container flutuem (ou seja, fiquem lado a lado) */
     display: flex;
     flex-wrap: wrap;
     row-gap: 8px;
@@ -54,7 +55,7 @@ header {
 
     align-items: center; /* alinha os itens centralizando na vertical */
 
-    justify-content: space-around; /* separa os itens um para cada lado dando margens dos cantos da tela */
+    justify-content: space-between;
 }
 
 header img {
