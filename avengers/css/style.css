@@ -108,7 +108,10 @@ header a:hover, header a:focus {
 
 .hero h1{
     color: #ebebeb;
-    font-size: 28px;
+    background-color: #f13239;
+    font-size: 24px;
+    padding: 4px 8px;
+    border-radius: 10px;
 }
 
 .dots{
