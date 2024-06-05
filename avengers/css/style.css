@@ -36,7 +36,7 @@ h2 {
     border-bottom: 1px solid #f13239;    
 }
 
-.dark-link:hover {
+.dark-link:hover, .dark-link:focus {
     color: #ebebeb;
     cursor: pointer;
     border-bottom: 1px solid #ebebeb;
@@ -84,7 +84,7 @@ header a {
     border-bottom: 1px solid #ebebeb;
 }
 
-header a:hover {
+header a:hover, header a:focus {
     color: #f13239;
     border-bottom: 1px solid #f13239;
 }
