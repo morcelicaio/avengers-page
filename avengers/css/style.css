@@ -10,7 +10,9 @@ body {
 }
 
 a {
-    transition: color 0.2s; /* transicao de 0.2 segundos para trocar a cor do item */
+    padding: 2px 0;
+    transition: color 0.2s; /* transicao de 0.2 segundos para trocar a cor do item */    
+    text-decoration: none;  /*Remove o sublinhado do link*/
 }
 
 h2 {
@@ -30,12 +32,14 @@ h2 {
 }
 
 .dark-link {
-    color: #f13239;     
+    color: #f13239;
+    border-bottom: 1px solid #f13239;    
 }
 
 .dark-link:hover {
     color: #ebebeb;
     cursor: pointer;
+    border-bottom: 1px solid #ebebeb;
 }
 
 .text-center {
@@ -77,13 +81,12 @@ header ul li + li {
 
 header a {
     color: #ebebeb;
-
-    /*Remove o sublinhado do link*/
-    text-decoration: none;    
+    border-bottom: 1px solid #ebebeb;
 }
 
 header a:hover {
     color: #f13239;
+    border-bottom: 1px solid #f13239;
 }
 
 .hero {
