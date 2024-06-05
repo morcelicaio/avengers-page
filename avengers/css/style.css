@@ -165,17 +165,16 @@ header a:hover, header a:focus {
     flex: 1 0 250px;
 }
 
-.gallery-row img{
+.gallery-row figure img{
     /* Diz para a img dentro da div ocupar 100 % do elemento
        pai (div) sem cortar a imagem */
     width: 100%;
 
     border-radius: 8px;
-
     margin-bottom: 12px;
 }
 
-.gallery p {
+.gallery figcaption {
     font-weight: bold;
 }
 
