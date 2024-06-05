@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* Rolagem suave na página*/
+}
+
 body {
     font-family: sans-serif;
 }
