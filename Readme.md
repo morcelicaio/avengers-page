@@ -6,7 +6,7 @@ Este projeto contém a estrutura de uma home page onde foram utilizados conceito
 | ------------- | ------------- |
 | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/3c7a0786-cf3e-4abb-bd5a-b381ffafe7d3) | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/a7157dc2-4d03-4a7d-9212-14c8ab4a472d) |
 | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/b759507e-fd29-4de8-9e41-cc9544ed99cd) | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/152c87be-c56f-412d-bc36-1d6fe1fe5c33) |
-| ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/87754a24-6e36-4e24-be46-7bac9778d549) | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/8eb7de2c-9546-4136-94b2-9d175d4a4ae9) |
+| ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/fd5cce20-5f91-4212-ab4b-fced570ef71f) | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/8eb7de2c-9546-4136-94b2-9d175d4a4ae9) |
 
 
 A partir deste material é possível visualizar e compreender os seguintes conceitos para estudos:
