@@ -9,7 +9,7 @@ Este projeto contém a estrutura de uma home page onde foram utilizados conceito
 | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/fd5cce20-5f91-4212-ab4b-fced570ef71f) | ![image](https://github.com/morcelicaio/avengers-page/assets/21083525/8eb7de2c-9546-4136-94b2-9d175d4a4ae9) |
 
 
-A partir deste material é possível visualizar e compreender os seguintes conceitos para estudos:
+# A partir deste material é possível visualizar e compreender os seguintes conceitos para estudos:
 
 - [x] Estruturação de home page com cabeçalho, itens de navegação, âncoras, seções intermediárias de conteúdo, imagens e rodapé.
 
