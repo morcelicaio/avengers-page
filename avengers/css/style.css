@@ -11,6 +11,7 @@ html {
 
 body {
     font-family: sans-serif;
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas*/
 }
 
 a {
@@ -182,10 +183,6 @@ header a:hover, header a:focus {
     border-top: 4px solid #f13239;
     
     padding: 92px 24px 0;
-}
-
-.history p {
-    line-height: 1.5; /* Aumenta o espaçamento entre linhas*/
 }
 
 .history p + p {
