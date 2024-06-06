@@ -53,6 +53,10 @@ h2 {
 
 header {    
     padding: 8px 16px;
+
+    position: fixed;
+    top: 0; /* Aplica o valor 0 de espaçamento para o topo da página*/
+    width: 100%;
 }
 
 header .container {
@@ -105,6 +109,8 @@ header a:hover, header a:focus {
     flex-direction: column; /* Faz com que os elementos filhos fiquem um cima do outro. Empilhados */
     justify-content: flex-end;
     align-items: center;
+
+    margin-top: 57px;
 }
 
 .hero h1{
